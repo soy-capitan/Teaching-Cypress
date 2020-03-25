@@ -1,11 +1,84 @@
 <!DOCTYPE html> 
 <html>
-    <body>
+    <head>
+        <title>Amanda's HTML notes</title>
+    </head>
 
-    Created my first branch! 
-    Tags - basic structure of html documents. Tells the browser how to view what kind of thing you are programing. img = image. tells the browser to render the image. location of a file. 
-    The opening and closing brackets for html are < > . To begin a tag use <img>pretend.jpg</img>  - no spaces in tags! Must begin and end the statement
-    HTML = Hypertext markup language
-     </body>
+    <body>
+        <meta charset='utf-8'>
+       <h1><center><font face="verdana" color="RebeccaPurple"> 🖤Amanda's HTML class notes🖤</font></center></h1>
+             👾
+             What is HTML? Hypertext markup language. It's the most basic language that the internet understands.
+            <dd>- Use DOCTYPE to specify the type of document you are creating</dd>
+        <dl><h3><font color="Crimson"><b><u>Tags</b></u></font></h3></dl>
+             <dt>Tags are the basic structure of HTML documents. They are the hidden keywords within a web page that define how your browser must format and display content. 
+                 Most tags must have two parts, an opening and a closing part. </dt>
+                 <dd>The opening and closing brackets for html are < > . For instance, to begin a tag use "< name of tag >" and to end a tag use "< / name of tag >". 
+                 You don't want any spaces within the tags.</dd>
+                <dt> They tell the browser how to view what kind of thing you are programing. 
+                <dd> ex. img = image Tells the browser to render an image. </dt></dd>
+                <br>The br tag inserts a single line break</br>
+        <br><dt> 💡Tip: A space in the code is whitespace. Spaces don't copy from one place to another as a whitespace often. Has a unicode.
+                    Will copy as a random set of characters.</dt></br>        
+         <dl><h3><font color="DarkOrange"><b><u>Attributes</b></u></font></h3>  
+              Attributes are extra bits of info that define characteristics or properties of the element such as width/height or font/color of an image. 
+              Attributes are always specified in the start tag (or opening tag) and usually consist of name/value pairs like name="value" . 
+              Attribute values should always be enclosed in quotation marks.
+              Anything after the = is an attribute of the tag
+                <dd>ex. "font face="arial" "color=red"
+                    div - divide, id - identify</dd></dl>
+
+        <li>src - source.<dd>specifies the URL of the image</dd></li>
+        
+        <li>alt - alternate. <dd>defines an alternate text for an image, if it cannot be displayed. Helps 
+            with accessability for users who aren't able to see well!</dd></li>
+       <li>href - hyperlink refernce</li> 
+            <dd>used to link from one page to another</dd>
+         
+        <p>
+            <dt><h3><font color="DarkCyan"><b><u>Lists</b></u></font></h3></dt> 
+                <ul>
+                    <li>"ul" - Unordered list: used to group a set of related items in no particular order using bullet points/characters</li>
+                    <li>"ol" - Ordered list: used to group a set of related items in a specific order using numbers</li>
+                        <dd>"li" - adds the bullets or numbers</dd>
+                    <li>"dl" - Description list: used to display name/value pairs such as terms and definitions.</li>
+                        <dd>Use "dl" to start the list. "dt" (define term) for the element or term and then "dd" for the description</dd></ul>
+
+           Unordered lists can also be stylized with circles, squares, or no bullet points:
+           <ul style="list-style-type:disc;">
+                <li>bullet point</li>
+            </ul>
+           <ul style="list-style-type:circle;">
+               <li>circle</li>
+           </ul>
+           <ul style="list-style-type:square;">
+               <li>square</li>
+           </ul>
+           <ul style="list-style-type:none;">
+               <li>none</li>
+           </ul>
+        </p>
+    <p>
+        String - render as text. Start and end with quotations. Single or double quotation marks work for most modern languages.
+        HTML likes "double quotes"
+    </p>
+    <b>CSS</b> - Cascading Style Sheets. Renders down to html.
+<br>
+<ul>
+        <u>Class:</u> Program code template. Generally global (can be accessed from anywhere)
+            <ul style="list-style-type:circle;">
+                <li>Makes things available outside of a singular file</li>
+                <li>Not always available in every file. Every programming language is different</li>
+                <li>Either need to import the file the class is in (javascript, HTML, CSS)</li>
+                <li>Or for ruby, java, c: the class has to be the file itself. Start file with the word "class" then name the file the class name.</li></ul></br>
+
+<p>
+You can add images:
+</p>
+   <center><img src="https://http.cat/420" alt="Cat eating marijuana leaf. Enhance your calm" alt="HTML tutorial" style="width:420px;height:420px;border:1"/></center>
+
+   Remember to have fun! 
+
+    </body>
 
  </html>
