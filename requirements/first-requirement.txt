@@ -1,0 +1,13 @@
+As a user I want to be able to select each button on the TN homepage and click on it.
+
+Acceptance: 
+
+User should be able to select each button individually and successfully navigate to another section of the site.
+
+Steps:
+
+- Visit TN homepage
+
+- Click on each button individually
+
+- Verify that each button directs us to another part of the site
