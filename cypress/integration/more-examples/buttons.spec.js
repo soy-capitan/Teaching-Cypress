@@ -5,7 +5,7 @@ describe('Click all buttons on the TN prod homepage', () => {
   });
 
 // let's refactor this
-  it.only('clicks on the first button', () => {
+  it('clicks on the first button', () => {
     cy.get('.hero__cta').contains('Shop now');
     cy.get('.hero__cta').should('be.visible');
     cy.get('#error_page').should('not.be.visible');
